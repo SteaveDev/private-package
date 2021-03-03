@@ -1,3 +1,5 @@
+let osu = require('node-os-utils')
+
 function portServer(port, name) {
     console.log(`${name} listening at http://localhost:${port}`)
 }
